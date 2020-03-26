@@ -71,10 +71,13 @@ function Profile() {
                             <p>{Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(incident.value)}</p>
 
                             <button type="button">
-                                <FiTrash2 size={20}
-                                    color="a8a8b3"
-                                    onClick={() => handleDeleteIncident(incident.id)}
-                                />
+                                <div className="test">
+
+                                    <FiTrash2 size={20}
+                                        color="a8a8b3"
+                                        onClick={() => handleDeleteIncident(incident.id)}
+                                    />
+                                </div>
                             </button>
                         </li>
                     )

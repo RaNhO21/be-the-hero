@@ -64,11 +64,12 @@
     top: 24px;
     border: 0;
     border-radius: 5px;
-    transition: filter 0.2s;
+    transition: 0.2s;
 }
 
 .profile-container ul li button:hover {
-    filter: brightness(90%);
+    /* filter: border brightness(90%); */
+    background-color: #e02041;
 }
 
 .profile-container ul li strong {
