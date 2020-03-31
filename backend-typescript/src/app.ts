@@ -4,9 +4,9 @@ import mongoose from "mongoose";
 import connection from "./database/connection";
 
 //
-const app = express()
-app.use(express.json());
-app.use(cors());
+// const app = express()
+// app.use(express.json());
+// app.use(cors());
 
 //
 
@@ -27,7 +27,7 @@ class App {
     }
 
     private database(): promise<any> {
-        return connection;s
+        return connection;
     }
 
     private routes(): void {
