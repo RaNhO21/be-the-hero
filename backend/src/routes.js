@@ -1,7 +1,6 @@
 const express = require("express");
 const crypto = require("crypto");
 const { celebrate, Segments, Joi } = require('celebrate');
-const connection = require('./database/connection');
 const ongControllers = require('./controllers/ongControllers');
 const incidentControllers= require('./controllers/incidentControllers');
 const profileControllers = require('./controllers/profileController');
