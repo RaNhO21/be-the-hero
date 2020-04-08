@@ -48,7 +48,7 @@ function Register() {
                 </section>
                 <form onSubmit={handleRegister}>
                     <input type="text"
-                        placeholder="Nome da ONG"
+                        placeholder="Titulo da ONG"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
                     />

@@ -49,7 +49,7 @@ function NewIncident() {
                     </Link>
                 </section>
                 <form onSubmit={handleNewIncident}>
-                    <input placeholder="Titulo da ONG"
+                    <input placeholder="Titulo do caso"
                         value={title}
                         onChange={e => setTitle(e.target.value)}
                     />

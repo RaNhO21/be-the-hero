@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
-import mongoose from "mongoose";
 import connection from "./database/connection";
+import Knex from 'knex';
 
 //
 // const app = express()
@@ -26,7 +26,7 @@ class App {
         this.express.use(cors());
     }
 
-    private database(): promise<any> {
+    private database(): Knex<any, unknown[]> {
         return connection;
     }
 

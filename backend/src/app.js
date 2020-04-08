@@ -9,6 +9,6 @@ app.use(express.json());
 app.use(routes);
 app.use(errors());
 
-console.log("System on port 3333");
+console.log("System on port 3333 or process.env.PORT");
 
 module.exports = app;
