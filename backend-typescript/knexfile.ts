@@ -45,6 +45,6 @@ const configuration = {
     }
   }
 
-} as knex.Config
+}
 
 export = configuration;
